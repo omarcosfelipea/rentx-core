@@ -1,0 +1,15 @@
+{
+  "type": "postgres",
+  "port": 5432,
+  "host": "172.16.2.2",
+  "username": "postgres",
+  "password": "ss",
+  "database": "rentx",
+  "entities": [
+    "./src/modules/*/entities/*.ts"
+  ],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
