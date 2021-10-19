@@ -2,7 +2,7 @@ import csvParse from 'csv-parse';
 import fs from 'fs';
 import { inject, injectable } from 'tsyringe';
 
-import { ICatetegoriesRepository } from '../../repositories/ICategoriesRepository';
+import { ICatetegoriesRepository } from '@modules/cars/repositories/ICategoriesRepository';
 
 interface IImportCategory {
   name: string;
